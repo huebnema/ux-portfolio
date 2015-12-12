@@ -356,7 +356,9 @@ nav a:hover {
     }
 
     img {
+        display: block;
         max-width: 100% !important;
+        height: auto;
     }
 
     p,
