@@ -57,7 +57,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Source Sans Pro', sans-serif;
 }
 
 .wrapper {
@@ -69,21 +69,8 @@ body {
     ALL: Orange Theme
    =================== */
 
-.header-container {
-}
-
-.footer-container,
-.main aside {
-}
-
-.header-container,
-.footer-container,
 .main aside {
     background: rgb(164, 154, 142);
-}
-
-.title {
-    color: white;
 }
 
 /* ==============
@@ -184,7 +171,9 @@ nav a:hover {
     list-style-type: none;
 }
 
-
+p {
+    line-height: 20px;
+}
 
 
 
