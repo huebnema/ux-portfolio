@@ -65,14 +65,6 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.main aside {
-    background: rgb(164, 154, 142);
-}
-
 /* ==============
     MOBILE: Menu
    ============== */
@@ -139,7 +131,7 @@ nav a:hover {
    ========================================================================== */
 
 .background {
-    background-color: rgb(164, 154, 142);
+    background-color: rgb(139, 35, 53);
 }
 
 .rounded-corners {
@@ -172,6 +164,10 @@ nav a:hover {
 
 p {
     line-height: 20px;
+}
+
+a {
+    color: rgb(180, 210, 248);
 }
 
 
