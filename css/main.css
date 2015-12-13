@@ -70,18 +70,16 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: rgb(164, 154, 142);
 }
 
 .title {
@@ -154,11 +152,33 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.background {
+    background-color: rgb(164, 154, 142);
+}
 
+.rounded-corners {
+    border-radius: 5px;
+}
 
+.center-image {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
 
-
-
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  /* Then we define the flow direction and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
 
 
 
@@ -213,12 +233,6 @@ nav a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
 
 /* ============
     WIDE: Menu
