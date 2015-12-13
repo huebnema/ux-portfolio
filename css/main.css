@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/*! 5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
     color: #222;
@@ -110,11 +110,13 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: black;
+    opacity: 0.8;
 }
 
 .footer-container footer {
-    color: white;
+    color: black;
+    opacity: 0.8;
     padding: 20px 0;
 }
 
@@ -131,7 +133,10 @@ nav a:hover {
    ========================================================================== */
 
 .background {
-    background-color: rgb(139, 35, 53);
+    background-color: rgb(245, 224, 180);
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
 }
 
 .rounded-corners {
@@ -164,11 +169,29 @@ nav a:hover {
 
 p {
     line-height: 20px;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 a {
-    color: rgb(180, 210, 248);
+    color: rgb(141, 38, 55);
+    font-size: 18px;
+    padding: 5px;
 }
+
+a:hover {
+    text-decoration:none;
+}
+
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 
 
 
