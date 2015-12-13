@@ -160,28 +160,29 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.center-image {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
 .flex-container {
   /* We first create a flex layout context */
   display: flex;
-  /* Then we define the flow direction and if we allow the items to wrap 
+  /* Then we define the flow direction and if we allow the items to wrap
    * Remember this is the same as:
    * flex-direction: row;
    * flex-wrap: wrap;
    */
   flex-flow: row wrap;
-  
+
   /* Then we define how is distributed the remaining space */
   justify-content: space-around;
 }
 
+.footer-text {
+    text-align: center;
+    font-size: 12px;
+}
 
-
+.link-ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
 
 
 
